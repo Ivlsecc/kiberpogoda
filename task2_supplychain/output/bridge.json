@@ -1,0 +1,55 @@
+{
+  "source": "D:\\Danil\\Desktop\\files\\учеба\\PT start\\2 Этап\\КиберПогода\\Тестовое_решение\\task1_targeting\\data\\ct_real.json",
+  "categories": {
+    "srm_procurement": {
+      "category": "SRM / закупки / портал поставщиков",
+      "claimed": 14,
+      "confirmed": 14,
+      "missing": []
+    },
+    "identity_federation": {
+      "category": "Федерация идентичности (IdP/SSO)",
+      "claimed": 4,
+      "confirmed": 4,
+      "missing": []
+    },
+    "cicd_code": {
+      "category": "Разработка / CI-CD / код",
+      "claimed": 9,
+      "confirmed": 9,
+      "missing": []
+    },
+    "vendor_remote_access": {
+      "category": "Удалённый доступ / SaaS-подрядчики",
+      "claimed": 6,
+      "confirmed": 6,
+      "missing": []
+    },
+    "comms_sms": {
+      "category": "SMS / push / email / adtech",
+      "claimed": 10,
+      "confirmed": 10,
+      "missing": []
+    },
+    "logistics": {
+      "category": "Логистика / доставка / ДЗО",
+      "claimed": 5,
+      "confirmed": 5,
+      "missing": []
+    },
+    "cloud_cdn": {
+      "category": "Облако / витрина / CDN",
+      "claimed": 7,
+      "confirmed": 7,
+      "missing": []
+    },
+    "fintech_payments": {
+      "category": "Финтех / платежи / лояльность",
+      "claimed": 6,
+      "confirmed": 6,
+      "missing": []
+    }
+  },
+  "ok": true,
+  "real_hosts_total": 108
+}

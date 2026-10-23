@@ -1,0 +1,47 @@
+{
+  "_what": "Мост из Задачи 1 в Задачу 2: какие категории зависимостей видны в периметре Магнита по данным Certificate Transparency (пассивно, через certspotter). Имена хостов — реальные, собраны в task1_targeting/data/ct_real.json. Вендоры, где названы, — гипотезы по именам поддоменов, не подтверждённые договоры; модель риска строится на КАТЕГОРИЯХ.",
+  "_source": "task1_targeting/data/ct_real.json -> data['magnit.ru'] (108 хостов)",
+  "_method": "регулярки по именам поддоменов; принадлежность хоста категории — публичный факт (хост виден в CT), вывод о вендоре — инференс.",
+  "signals": {
+    "srm_procurement": {
+      "category": "SRM / закупки / портал поставщиков",
+      "hosts": ["srm.magnit.ru", "srm2.magnit.ru", "keycloak.srm2.magnit.ru", "login.srm2.magnit.ru", "zakupki.magnit.ru", "assets.zakupki.magnit.ru", "kontragent.magnit.ru", "eportal.magnit.ru", "b2b-portal.magnit.ru", "b2b-api.magnit.ru", "api-merch.magnit.ru", "opt.magnit.ru", "oos.magnit.ru", "agro.magnit.ru"],
+      "reads": "Наружу торчит отдельный контур управления поставщиками (SRM) со своим Keycloak-ом — входят подрядчики. Это прямой supply-chain pivot: вход через партнёрскую учётку."
+    },
+    "identity_federation": {
+      "category": "Федерация идентичности (IdP/SSO)",
+      "hosts": ["sso.magnit.ru", "id.magnit.ru", "adfs.magnit.ru", "keycloak.srm2.magnit.ru"],
+      "reads": "Несколько провайдеров идентичности: корпоративный ADFS, общий SSO/ID и отдельный Keycloak под портал поставщиков. SSO — множитель радиуса поражения: одна федеративная учётка открывает многое."
+    },
+    "cicd_code": {
+      "category": "Разработка / CI-CD / код",
+      "hosts": ["gitlab.magnit.ru", "dev.core.md.magnit.ru", "dev.platform.md.magnit.ru", "dev.ya.magnit.ru", "uat.platform.md.magnit.ru", "uat.ya.magnit.ru", "preprod-lkka.magnit.ru", "bzdsit.magnit.ru", "prod.platform.md.magnit.ru"],
+      "reads": "Self-hosted GitLab + контуры dev/uat/sit/preprod. Это рабочая поверхность интеграторов и канал цепочки поставок через код (сборки, зависимости, CI-раннеры)."
+    },
+    "vendor_remote_access": {
+      "category": "Удалённый доступ / SaaS-подрядчики",
+      "hosts": ["remote-crafttalk.magnit.ru", "cti-gateway.magnit.ru", "copilot.magnit.ru", "gpt.magnit.ru", "virtual-assistant.magnit.ru", "chat-stream.ya.magnit.ru"],
+      "reads": "Явный префикс remote- у вендорского чат-бота (CraftTalk) и шлюз телефонии (CTI) намекают на каналы удалённого доступа внешних подрядчиков в контур. AI-ассистенты — отдельные интеграции."
+    },
+    "comms_sms": {
+      "category": "SMS / push / email / adtech",
+      "hosts": ["linkmobile.magnit.ru", "push.tag.magnit.ru", "kmail01.magnit.ru", "kmail02.magnit.ru", "kmail03.magnit.ru", "mail.magnit.ru", "ews.magnit.ru", "mads.magnit.ru", "dsp.magnit.ru", "dmp.magnit.ru"],
+      "reads": "linkmobile — почти наверняка интеграция с SMS-агрегатором (LINK Mobility class). Это канал OTP: компрометация шлюза = перехват одноразовых кодов. Плюс Exchange-кластер и adtech-стек (DSP/DMP)."
+    },
+    "logistics": {
+      "category": "Логистика / доставка / ДЗО",
+      "hosts": ["selta.magnit.ru", "dostavka.magnit.ru", "courier.magnit.ru", "track.magnit.ru", "img-dostavka.magnit.ru"],
+      "reads": "selta — Selta, собственная транспортная «дочка» Магнита (ДЗО): пример зависимости второго уровня — у дочерней компании свои поставщики (телематика, топливные карты)."
+    },
+    "cloud_cdn": {
+      "category": "Облако / витрина / CDN",
+      "hosts": ["prod.platform.md.magnit.ru", "uat.platform.md.magnit.ru", "ecom.md.magnit.ru", "ecom-api.magnit.ru", "media.talk.magnit.ru", "videostream.magnit.ru", "assets.zakupki.magnit.ru"],
+      "reads": "Платформенный контур (platform.md) и e-com API + медиа/CDN. Отказ хостинга витрины = простой онлайн-продаж."
+    },
+    "fintech_payments": {
+      "category": "Финтех / платежи / лояльность",
+      "hosts": ["loans.magnit.ru", "c2c.magnit.ru", "moy.magnit.ru", "my.magnit.ru", "new.moy.magnit.ru", "tvoy.magnit.ru"],
+      "reads": "Кредиты/рассрочка (loans), card-to-card (c2c), программа лояльности (moy/my). Платёжный контур работает через банк-эквайер и платёжных провайдеров."
+    }
+  }
+}

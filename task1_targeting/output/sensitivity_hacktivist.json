@@ -1,0 +1,67 @@
+{
+  "profile": "hacktivist",
+  "n": 1000,
+  "sigma": 0.25,
+  "summary": [
+    {
+      "name": "Wildberries",
+      "mean_rank": 1.0,
+      "std_rank": 0.0,
+      "top3_share": 1.0
+    },
+    {
+      "name": "Ozon",
+      "mean_rank": 2.0,
+      "std_rank": 0.0,
+      "top3_share": 1.0
+    },
+    {
+      "name": "DNS",
+      "mean_rank": 3.3,
+      "std_rank": 0.46,
+      "top3_share": 0.697
+    },
+    {
+      "name": "Magnit",
+      "mean_rank": 4.0,
+      "std_rank": 0.77,
+      "top3_share": 0.291
+    },
+    {
+      "name": "Detsky Mir",
+      "mean_rank": 4.74,
+      "std_rank": 0.54,
+      "top3_share": 0.012
+    },
+    {
+      "name": "M.Video",
+      "mean_rank": 6.2,
+      "std_rank": 0.47,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Megamarket",
+      "mean_rank": 7.14,
+      "std_rank": 0.87,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Lenta",
+      "mean_rank": 7.83,
+      "std_rank": 0.65,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Kuper",
+      "mean_rank": 8.79,
+      "std_rank": 0.41,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Lamoda",
+      "mean_rank": 10.0,
+      "std_rank": 0.0,
+      "top3_share": 0.0
+    }
+  ]
+}

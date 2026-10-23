@@ -1,0 +1,67 @@
+{
+  "profile": "apt",
+  "n": 1000,
+  "sigma": 0.25,
+  "summary": [
+    {
+      "name": "Wildberries",
+      "mean_rank": 1.0,
+      "std_rank": 0.0,
+      "top3_share": 1.0
+    },
+    {
+      "name": "Ozon",
+      "mean_rank": 2.0,
+      "std_rank": 0.0,
+      "top3_share": 1.0
+    },
+    {
+      "name": "DNS",
+      "mean_rank": 3.27,
+      "std_rank": 0.45,
+      "top3_share": 0.736
+    },
+    {
+      "name": "Detsky Mir",
+      "mean_rank": 4.13,
+      "std_rank": 0.68,
+      "top3_share": 0.172
+    },
+    {
+      "name": "Magnit",
+      "mean_rank": 4.62,
+      "std_rank": 0.66,
+      "top3_share": 0.092
+    },
+    {
+      "name": "M.Video",
+      "mean_rank": 6.16,
+      "std_rank": 0.38,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Megamarket",
+      "mean_rank": 7.2,
+      "std_rank": 0.8,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Lenta",
+      "mean_rank": 7.82,
+      "std_rank": 0.63,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Kuper",
+      "mean_rank": 8.81,
+      "std_rank": 0.39,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Lamoda",
+      "mean_rank": 10.0,
+      "std_rank": 0.0,
+      "top3_share": 0.0
+    }
+  ]
+}

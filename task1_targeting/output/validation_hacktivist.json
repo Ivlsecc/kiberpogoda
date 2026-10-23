@@ -1,0 +1,78 @@
+{
+  "profile": "hacktivist",
+  "n": 10,
+  "positives": 4,
+  "P@2": 1.0,
+  "R@2": 0.5,
+  "lift@2": 2.5,
+  "P@3": 1.0,
+  "R@3": 0.75,
+  "lift@3": 2.5,
+  "P@5": 0.8,
+  "R@5": 1.0,
+  "lift@5": 2.0,
+  "AP": 0.95,
+  "corr(score,label)": 0.757,
+  "ranked": [
+    {
+      "rank": 1,
+      "name": "Wildberries",
+      "score": 84.9,
+      "label": 1
+    },
+    {
+      "rank": 2,
+      "name": "Ozon",
+      "score": 74.6,
+      "label": 1
+    },
+    {
+      "rank": 3,
+      "name": "DNS",
+      "score": 59.0,
+      "label": 1
+    },
+    {
+      "rank": 4,
+      "name": "Magnit",
+      "score": 57.3,
+      "label": 0
+    },
+    {
+      "rank": 5,
+      "name": "Detsky Mir",
+      "score": 54.6,
+      "label": 1
+    },
+    {
+      "rank": 6,
+      "name": "M.Video",
+      "score": 48.8,
+      "label": 0
+    },
+    {
+      "rank": 7,
+      "name": "Megamarket",
+      "score": 45.7,
+      "label": 0
+    },
+    {
+      "rank": 8,
+      "name": "Lenta",
+      "score": 43.3,
+      "label": 0
+    },
+    {
+      "rank": 9,
+      "name": "Kuper",
+      "score": 41.1,
+      "label": 0
+    },
+    {
+      "rank": 10,
+      "name": "Lamoda",
+      "score": 28.5,
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "trials": 2000,
+  "delta": 0.25,
+  "top_k": 4,
+  "base_top": [
+    "SRM_INTEGRATOR",
+    "CICD",
+    "IDP",
+    "CLOUD"
+  ],
+  "stability": {
+    "SRM_INTEGRATOR": {
+      "label": "Интегратор портала поставщиков / закупок (SRM)",
+      "base_rank": 1,
+      "mean_rank": 1.18,
+      "rank_std": 0.42,
+      "stays_in_top": 1.0
+    },
+    "CICD": {
+      "label": "Разработка / CI-CD (self-hosted GitLab)",
+      "base_rank": 2,
+      "mean_rank": 2.04,
+      "rank_std": 0.62,
+      "stays_in_top": 0.999
+    },
+    "IDP": {
+      "label": "Федерация идентичности (SSO/ADFS/Keycloak)",
+      "base_rank": 3,
+      "mean_rank": 2.88,
+      "rank_std": 0.56,
+      "stays_in_top": 0.992
+    },
+    "CLOUD": {
+      "label": "Облако/хостинг витрины + CDN",
+      "base_rank": 4,
+      "mean_rank": 5.46,
+      "rank_std": 1.28,
+      "stays_in_top": 0.281
+    },
+    "SMS_GW": {
+      "label": "SMS-агрегатор (канал OTP)",
+      "base_rank": 5,
+      "mean_rank": 5.65,
+      "rank_std": 1.49,
+      "stays_in_top": 0.275
+    },
+    "INTEGRATOR_MSP": {
+      "label": "Субподрядчик интегратора (аутсорс-разработка)",
+      "base_rank": 6,
+      "mean_rank": 5.85,
+      "rank_std": 1.55,
+      "stays_in_top": 0.237
+    },
+    "LOGISTICS": {
+      "label": "Логистика / доставка (вкл. ДЗО Selta)",
+      "base_rank": 7,
+      "mean_rank": 6.12,
+      "rank_std": 1.43,
+      "stays_in_top": 0.162
+    },
+    "CTI": {
+      "label": "Телефония / контакт-центр (CTI-шлюз)",
+      "base_rank": 8,
+      "mean_rank": 7.43,
+      "rank_std": 1.54,
+      "stays_in_top": 0.053
+    },
+    "ACQUIRING": {
+      "label": "Банк-эквайер / платёжный провайдер",
+      "base_rank": 9,
+      "mean_rank": 8.59,
+      "rank_std": 0.9,
+      "stays_in_top": 0.001
+    },
+    "SAAS_CHATBOT": {
+      "label": "SaaS чат-бот/поддержка (удал. доступ)",
+      "base_rank": 10,
+      "mean_rank": 9.95,
+      "rank_std": 0.66,
+      "stays_in_top": 0.0
+    },
+    "SHARED_IAAS": {
+      "label": "Общий облачный провайдер под SaaS-вендоров",
+      "base_rank": 11,
+      "mean_rank": 10.9,
+      "rank_std": 0.4,
+      "stays_in_top": 0.0
+    },
+    "TELEMATICS": {
+      "label": "Телематика/топливные карты ДЗО",
+      "base_rank": 12,
+      "mean_rank": 11.96,
+      "rank_std": 0.21,
+      "stays_in_top": 0.0
+    }
+  }
+}

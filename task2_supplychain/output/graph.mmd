@@ -1,0 +1,44 @@
+graph LR
+    MAGNIT["Ритейлер (заказчик)"]
+    SRM_INTEGRATOR["Интегратор портала поставщиков / закупок (SRM)"]
+    IDP["Федерация идентичности (SSO/ADFS/Keycloak)"]
+    CICD["Разработка / CI-CD (self-hosted GitLab)"]
+    SMS_GW["SMS-агрегатор (канал OTP)"]
+    LOGISTICS["Логистика / доставка (вкл. ДЗО Selta)"]
+    CLOUD["Облако/хостинг витрины + CDN"]
+    ACQUIRING["Банк-эквайер / платёжный провайдер"]
+    SAAS_CHATBOT["SaaS чат-бот/поддержка (удал. доступ)"]
+    CTI["Телефония / контакт-центр (CTI-шлюз)"]
+    SHARED_IAAS["Общий облачный провайдер под SaaS-вендоров"]
+    INTEGRATOR_MSP["Субподрядчик интегратора (аутсорс-разработка)"]
+    TELEMATICS["Телематика/топливные карты ДЗО"]
+    SRM_INTEGRATOR -->|0.51| MAGNIT
+    IDP -->|0.68| MAGNIT
+    CICD -->|0.45| MAGNIT
+    SMS_GW -->|0.19| MAGNIT
+    LOGISTICS -->|0.19| MAGNIT
+    CLOUD -->|0.54| MAGNIT
+    ACQUIRING -->|0.26| MAGNIT
+    SAAS_CHATBOT -->|0.06| MAGNIT
+    CTI -->|0.15| MAGNIT
+    SHARED_IAAS -->|0.54| SMS_GW
+    SHARED_IAAS -->|0.43| SAAS_CHATBOT
+    SHARED_IAAS -->|0.34| CTI
+    INTEGRATOR_MSP -->|0.48| SRM_INTEGRATOR
+    TELEMATICS -->|0.15| LOGISTICS
+    IDP -->|0.40| SRM_INTEGRATOR
+    IDP -->|0.47| CICD
+    CICD -->|0.36| CLOUD
+    style MAGNIT fill:#1f3b57,color:#fff,stroke:#0b1b2b
+    style SRM_INTEGRATOR fill:#c81e1e,stroke:#333
+    style IDP fill:#dd6a34,stroke:#333
+    style CICD fill:#d64e2c,stroke:#333
+    style SMS_GW fill:#ec9b43,stroke:#333
+    style LOGISTICS fill:#eda045,stroke:#333
+    style CLOUD fill:#eb9a43,stroke:#333
+    style ACQUIRING fill:#f4b64b,stroke:#333
+    style SAAS_CHATBOT fill:#f8c650,stroke:#333
+    style CTI fill:#f1ad48,stroke:#333
+    style SHARED_IAAS fill:#fbd053,stroke:#333
+    style INTEGRATOR_MSP fill:#ec9c43,stroke:#333
+    style TELEMATICS fill:#fdd655,stroke:#333

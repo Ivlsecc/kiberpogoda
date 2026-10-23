@@ -1,0 +1,10 @@
+# Сбор (scrape.py)
+requests>=2.28
+beautifulsoup4>=4.11
+
+# Пайплайн обработки (classify/ner/dedup/enrich/store/evaluate) — только стандартная
+# библиотека Python, доп. зависимостей НЕТ.
+#
+# Локальный ИИ (опционально, llm.py): Ollama (https://ollama.com), запускается отдельно.
+#   ollama pull qwen2.5:7b   # или llama3.2:3b на слабом железе
+# Обращение к нему идёт по HTTP через requests — отдельная библиотека не нужна.

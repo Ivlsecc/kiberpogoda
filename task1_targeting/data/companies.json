@@ -1,0 +1,89 @@
+{
+  "_comment": "Входные данные: список компаний отрасли (российский ритейл / e-commerce). Признаки группы A (ценность) — аналитические оценки на основе публичной отчётности/масштаба бренда, в диапазоне 0..1 (prominence, pii_scale, sector_criticality) либо абсолютные (revenue_rub_bln). Признаки E/O/I собираются автоматически (crt.sh, hh.ru, монитор задачи 3); значения *_seed используются как офлайн-фолбэк, если сеть недоступна.",
+  "profile_default": "ransomware",
+  "sector_trend": 0.7,
+  "companies": [
+    {
+      "name": "Ozon",
+      "domain": "ozon.ru",
+      "hh_name": "Ozon",
+      "wiki": "Ozon",
+      "A": {"revenue_rub_bln": 550, "prominence": 0.95, "pii_scale": 0.95, "sector_criticality": 0.6},
+      "seed": {"subdomains": 1800, "it_vacancies": 900, "sec_vacancies": 40, "leak_mentions": 7, "access_for_sale": 1, "shadow_mentions_30d": 9, "new_cve_in_stack": 1}
+    },
+    {
+      "name": "Wildberries",
+      "domain": "wildberries.ru",
+      "hh_name": "Wildberries",
+      "wiki": "Wildberries",
+      "A": {"revenue_rub_bln": 2600, "prominence": 0.97, "pii_scale": 0.97, "sector_criticality": 0.65},
+      "seed": {"subdomains": 1500, "it_vacancies": 700, "sec_vacancies": 18, "leak_mentions": 9, "access_for_sale": 1, "shadow_mentions_30d": 14, "new_cve_in_stack": 1}
+    },
+    {
+      "name": "DNS",
+      "domain": "dns-shop.ru",
+      "hh_name": "DNS",
+      "wiki": "DNS (компания)",
+      "A": {"revenue_rub_bln": 600, "prominence": 0.8, "pii_scale": 0.8, "sector_criticality": 0.5},
+      "seed": {"subdomains": 400, "it_vacancies": 250, "sec_vacancies": 8, "leak_mentions": 6, "access_for_sale": 0, "shadow_mentions_30d": 5, "new_cve_in_stack": 1}
+    },
+    {
+      "name": "M.Video",
+      "domain": "mvideo.ru",
+      "hh_name": "М.Видео-Эльдорадо",
+      "wiki": "М.Видео",
+      "A": {"revenue_rub_bln": 430, "prominence": 0.78, "pii_scale": 0.75, "sector_criticality": 0.45},
+      "seed": {"subdomains": 350, "it_vacancies": 200, "sec_vacancies": 10, "leak_mentions": 4, "access_for_sale": 0, "shadow_mentions_30d": 3, "new_cve_in_stack": 0}
+    },
+    {
+      "name": "Lamoda",
+      "domain": "lamoda.ru",
+      "hh_name": "Lamoda",
+      "wiki": "Lamoda",
+      "A": {"revenue_rub_bln": 120, "prominence": 0.7, "pii_scale": 0.7, "sector_criticality": 0.35},
+      "seed": {"subdomains": 300, "it_vacancies": 150, "sec_vacancies": 12, "leak_mentions": 3, "access_for_sale": 0, "shadow_mentions_30d": 2, "new_cve_in_stack": 0}
+    },
+    {
+      "name": "Detsky Mir",
+      "domain": "detmir.ru",
+      "hh_name": "Детский мир",
+      "wiki": "Детский мир (сеть магазинов)",
+      "A": {"revenue_rub_bln": 170, "prominence": 0.72, "pii_scale": 0.8, "sector_criticality": 0.4},
+      "seed": {"subdomains": 250, "it_vacancies": 120, "sec_vacancies": 5, "leak_mentions": 5, "access_for_sale": 1, "shadow_mentions_30d": 4, "new_cve_in_stack": 1}
+    },
+    {
+      "name": "Magnit",
+      "domain": "magnit.ru",
+      "hh_name": "Магнит, розничная сеть",
+      "wiki": "Магнит (сеть магазинов)",
+      "A": {"revenue_rub_bln": 2900, "prominence": 0.85, "pii_scale": 0.7, "sector_criticality": 0.7},
+      "seed": {"subdomains": 500, "it_vacancies": 300, "sec_vacancies": 22, "leak_mentions": 4, "access_for_sale": 0, "shadow_mentions_30d": 3, "new_cve_in_stack": 0}
+    },
+    {
+      "name": "Lenta",
+      "domain": "lenta.com",
+      "hh_name": "Лента",
+      "wiki": "Лента (сеть магазинов)",
+      "A": {"revenue_rub_bln": 620, "prominence": 0.7, "pii_scale": 0.65, "sector_criticality": 0.6},
+      "seed": {"subdomains": 220, "it_vacancies": 110, "sec_vacancies": 6, "leak_mentions": 2, "access_for_sale": 0, "shadow_mentions_30d": 1, "new_cve_in_stack": 0}
+    },
+    {
+      "name": "Megamarket",
+      "domain": "megamarket.ru",
+      "hh_name": "Мегамаркет",
+      "wiki": "Мегамаркет",
+      "_note": "Пример компании с НЕПОЛНЫМИ данными: часть признаков A неизвестна, нет seed-сигналов -> демонстрирует работу Confidence (балл с низкой уверенностью = гипотеза, а не вывод).",
+      "A": {"prominence": 0.6},
+      "seed": {"it_vacancies": 160}
+    },
+    {
+      "name": "Kuper",
+      "domain": "kuper.ru",
+      "hh_name": "Купер",
+      "wiki": "Купер (сервис)",
+      "_note": "Ещё один пример с частичными данными (ребрендинг СберМаркета -> мало открытой истории).",
+      "A": {"prominence": 0.55, "pii_scale": 0.7},
+      "seed": {"shadow_mentions_30d": 2, "access_for_sale": 0}
+    }
+  ]
+}

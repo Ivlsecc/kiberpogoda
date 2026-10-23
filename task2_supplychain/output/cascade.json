@@ -1,0 +1,214 @@
+{
+  "focal": "MAGNIT",
+  "decay": 0.6,
+  "origins": {
+    "SRM_INTEGRATOR": {
+      "label": "Интегратор портала поставщиков / закупок (SRM)",
+      "systemic_shock": 0.51,
+      "paths": [
+        {
+          "hops": [
+            "SRM_INTEGRATOR",
+            "MAGNIT"
+          ],
+          "strength": 0.51
+        }
+      ]
+    },
+    "IDP": {
+      "label": "Федерация идентичности (SSO/ADFS/Keycloak)",
+      "systemic_shock": 0.766,
+      "paths": [
+        {
+          "hops": [
+            "IDP",
+            "MAGNIT"
+          ],
+          "strength": 0.684
+        },
+        {
+          "hops": [
+            "IDP",
+            "CICD",
+            "MAGNIT"
+          ],
+          "strength": 0.127
+        },
+        {
+          "hops": [
+            "IDP",
+            "SRM_INTEGRATOR",
+            "MAGNIT"
+          ],
+          "strength": 0.122
+        },
+        {
+          "hops": [
+            "IDP",
+            "CICD",
+            "CLOUD",
+            "MAGNIT"
+          ],
+          "strength": 0.032
+        }
+      ]
+    },
+    "CICD": {
+      "label": "Разработка / CI-CD (self-hosted GitLab)",
+      "systemic_shock": 0.518,
+      "paths": [
+        {
+          "hops": [
+            "CICD",
+            "MAGNIT"
+          ],
+          "strength": 0.455
+        },
+        {
+          "hops": [
+            "CICD",
+            "CLOUD",
+            "MAGNIT"
+          ],
+          "strength": 0.116
+        }
+      ]
+    },
+    "SMS_GW": {
+      "label": "SMS-агрегатор (канал OTP)",
+      "systemic_shock": 0.188,
+      "paths": [
+        {
+          "hops": [
+            "SMS_GW",
+            "MAGNIT"
+          ],
+          "strength": 0.188
+        }
+      ]
+    },
+    "LOGISTICS": {
+      "label": "Логистика / доставка (вкл. ДЗО Selta)",
+      "systemic_shock": 0.193,
+      "paths": [
+        {
+          "hops": [
+            "LOGISTICS",
+            "MAGNIT"
+          ],
+          "strength": 0.193
+        }
+      ]
+    },
+    "CLOUD": {
+      "label": "Облако/хостинг витрины + CDN",
+      "systemic_shock": 0.535,
+      "paths": [
+        {
+          "hops": [
+            "CLOUD",
+            "MAGNIT"
+          ],
+          "strength": 0.535
+        }
+      ]
+    },
+    "ACQUIRING": {
+      "label": "Банк-эквайер / платёжный провайдер",
+      "systemic_shock": 0.255,
+      "paths": [
+        {
+          "hops": [
+            "ACQUIRING",
+            "MAGNIT"
+          ],
+          "strength": 0.255
+        }
+      ]
+    },
+    "SAAS_CHATBOT": {
+      "label": "SaaS чат-бот/поддержка (удал. доступ)",
+      "systemic_shock": 0.06,
+      "paths": [
+        {
+          "hops": [
+            "SAAS_CHATBOT",
+            "MAGNIT"
+          ],
+          "strength": 0.06
+        }
+      ]
+    },
+    "CTI": {
+      "label": "Телефония / контакт-центр (CTI-шлюз)",
+      "systemic_shock": 0.153,
+      "paths": [
+        {
+          "hops": [
+            "CTI",
+            "MAGNIT"
+          ],
+          "strength": 0.153
+        }
+      ]
+    },
+    "SHARED_IAAS": {
+      "label": "Общий облачный провайдер под SaaS-вендоров",
+      "systemic_shock": 0.104,
+      "paths": [
+        {
+          "hops": [
+            "SHARED_IAAS",
+            "SMS_GW",
+            "MAGNIT"
+          ],
+          "strength": 0.06
+        },
+        {
+          "hops": [
+            "SHARED_IAAS",
+            "CTI",
+            "MAGNIT"
+          ],
+          "strength": 0.031
+        },
+        {
+          "hops": [
+            "SHARED_IAAS",
+            "SAAS_CHATBOT",
+            "MAGNIT"
+          ],
+          "strength": 0.016
+        }
+      ]
+    },
+    "INTEGRATOR_MSP": {
+      "label": "Субподрядчик интегратора (аутсорс-разработка)",
+      "systemic_shock": 0.147,
+      "paths": [
+        {
+          "hops": [
+            "INTEGRATOR_MSP",
+            "SRM_INTEGRATOR",
+            "MAGNIT"
+          ],
+          "strength": 0.147
+        }
+      ]
+    },
+    "TELEMATICS": {
+      "label": "Телематика/топливные карты ДЗО",
+      "systemic_shock": 0.017,
+      "paths": [
+        {
+          "hops": [
+            "TELEMATICS",
+            "LOGISTICS",
+            "MAGNIT"
+          ],
+          "strength": 0.017
+        }
+      ]
+    }
+  }
+}

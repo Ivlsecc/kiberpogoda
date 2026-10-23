@@ -1,0 +1,34 @@
+digraph supplychain {
+  rankdir=LR;
+  node [style=filled, fontname="Arial"];
+  MAGNIT [label="Ритейлер (заказчик)", fillcolor="#1f3b57", fontcolor="white"];
+  SRM_INTEGRATOR [label="Интегратор портала поставщиков / закупок (SRM)", fillcolor="#c81e1e"];
+  IDP [label="Федерация идентичности (SSO/ADFS/Keycloak)", fillcolor="#dd6a34"];
+  CICD [label="Разработка / CI-CD (self-hosted GitLab)", fillcolor="#d64e2c"];
+  SMS_GW [label="SMS-агрегатор (канал OTP)", fillcolor="#ec9b43"];
+  LOGISTICS [label="Логистика / доставка (вкл. ДЗО Selta)", fillcolor="#eda045"];
+  CLOUD [label="Облако/хостинг витрины + CDN", fillcolor="#eb9a43"];
+  ACQUIRING [label="Банк-эквайер / платёжный провайдер", fillcolor="#f4b64b"];
+  SAAS_CHATBOT [label="SaaS чат-бот/поддержка (удал. доступ)", fillcolor="#f8c650"];
+  CTI [label="Телефония / контакт-центр (CTI-шлюз)", fillcolor="#f1ad48"];
+  SHARED_IAAS [label="Общий облачный провайдер под SaaS-вендоров", fillcolor="#fbd053"];
+  INTEGRATOR_MSP [label="Субподрядчик интегратора (аутсорс-разработка)", fillcolor="#ec9c43"];
+  TELEMATICS [label="Телематика/топливные карты ДЗО", fillcolor="#fdd655"];
+  SRM_INTEGRATOR -> MAGNIT [label="0.51", penwidth=3.0];
+  IDP -> MAGNIT [label="0.68", penwidth=3.7];
+  CICD -> MAGNIT [label="0.45", penwidth=2.8];
+  SMS_GW -> MAGNIT [label="0.19", penwidth=1.8];
+  LOGISTICS -> MAGNIT [label="0.19", penwidth=1.8];
+  CLOUD -> MAGNIT [label="0.54", penwidth=3.1];
+  ACQUIRING -> MAGNIT [label="0.26", penwidth=2.0];
+  SAAS_CHATBOT -> MAGNIT [label="0.06", penwidth=1.2];
+  CTI -> MAGNIT [label="0.15", penwidth=1.6];
+  SHARED_IAAS -> SMS_GW [label="0.54", penwidth=3.1];
+  SHARED_IAAS -> SAAS_CHATBOT [label="0.43", penwidth=2.7];
+  SHARED_IAAS -> CTI [label="0.34", penwidth=2.4];
+  INTEGRATOR_MSP -> SRM_INTEGRATOR [label="0.48", penwidth=2.9];
+  TELEMATICS -> LOGISTICS [label="0.15", penwidth=1.6];
+  IDP -> SRM_INTEGRATOR [label="0.40", penwidth=2.6];
+  IDP -> CICD [label="0.47", penwidth=2.9];
+  CICD -> CLOUD [label="0.36", penwidth=2.4];
+}

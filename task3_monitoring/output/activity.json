@@ -1,0 +1,219 @@
+{
+  "by_day": {
+    "2026-09-07": 1,
+    "2026-09-09": 2,
+    "2026-09-11": 2,
+    "2026-09-14": 2,
+    "2026-09-16": 2,
+    "2026-09-18": 2,
+    "2026-09-21": 2,
+    "2026-09-23": 2,
+    "2026-09-25": 2,
+    "2026-09-28": 2,
+    "2026-09-30": 2,
+    "2026-10-01": 1,
+    "2026-10-02": 2,
+    "2026-10-05": 1,
+    "2026-10-06": 1,
+    "2026-10-07": 2,
+    "2026-10-08": 1,
+    "2026-10-09": 3,
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 3,
+    "2026-10-13": 3,
+    "2026-10-14": 5,
+    "2026-10-15": 1,
+    "2026-10-16": 8,
+    "2026-10-18": 4,
+    "2026-10-19": 7,
+    "2026-10-20": 6,
+    "2026-10-21": 9
+  },
+  "by_day_type": {
+    "2026-09-07": {
+      "regulation": 1
+    },
+    "2026-09-09": {
+      "phishing_fraud": 1,
+      "regulation": 1
+    },
+    "2026-09-11": {
+      "regulation": 1,
+      "data_leak": 1
+    },
+    "2026-09-14": {
+      "data_leak": 2
+    },
+    "2026-09-16": {
+      "data_leak": 1,
+      "other": 1
+    },
+    "2026-09-18": {
+      "malware": 1,
+      "ransomware": 1
+    },
+    "2026-09-21": {
+      "vuln_disclosure": 1,
+      "other": 1
+    },
+    "2026-09-23": {
+      "regulation": 1,
+      "other": 1
+    },
+    "2026-09-25": {
+      "vuln_disclosure": 1,
+      "phishing_fraud": 1
+    },
+    "2026-09-28": {
+      "vuln_disclosure": 1,
+      "other": 1
+    },
+    "2026-09-30": {
+      "regulation": 1,
+      "data_leak": 1
+    },
+    "2026-10-01": {
+      "data_leak": 1
+    },
+    "2026-10-02": {
+      "regulation": 1,
+      "data_leak": 1
+    },
+    "2026-10-05": {
+      "attack_claim": 1
+    },
+    "2026-10-06": {
+      "other": 1
+    },
+    "2026-10-07": {
+      "vuln_disclosure": 1,
+      "phishing_fraud": 1
+    },
+    "2026-10-08": {
+      "tool_release": 1
+    },
+    "2026-10-09": {
+      "vuln_disclosure": 2,
+      "tool_release": 1
+    },
+    "2026-10-10": {
+      "other": 1
+    },
+    "2026-10-11": {
+      "malware": 1
+    },
+    "2026-10-12": {
+      "attack_claim": 1,
+      "data_leak": 1,
+      "tool_release": 1
+    },
+    "2026-10-13": {
+      "other": 1,
+      "vuln_disclosure": 1,
+      "attack_claim": 1
+    },
+    "2026-10-14": {
+      "regulation": 2,
+      "tool_release": 1,
+      "other": 1,
+      "vuln_disclosure": 1
+    },
+    "2026-10-15": {
+      "tool_release": 1
+    },
+    "2026-10-16": {
+      "attack_claim": 1,
+      "regulation": 1,
+      "other": 1,
+      "tool_release": 1,
+      "malware": 1,
+      "ransomware": 2,
+      "vuln_disclosure": 1
+    },
+    "2026-10-18": {
+      "other": 1,
+      "phishing_fraud": 1,
+      "attack_claim": 1,
+      "tool_release": 1
+    },
+    "2026-10-19": {
+      "other": 2,
+      "attack_claim": 1,
+      "phishing_fraud": 2,
+      "tool_release": 1,
+      "malware": 1
+    },
+    "2026-10-20": {
+      "attack_claim": 3,
+      "other": 1,
+      "regulation": 1,
+      "tool_release": 1
+    },
+    "2026-10-21": {
+      "regulation": 1,
+      "vuln_disclosure": 2,
+      "attack_claim": 2,
+      "other": 4
+    }
+  },
+  "spike_days": [
+    "2026-10-14",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "top_companies": [
+    [
+      "Infosecurity",
+      9
+    ],
+    [
+      "Telegram",
+      4
+    ],
+    [
+      "GitHub",
+      4
+    ],
+    [
+      "Яндекс",
+      3
+    ],
+    [
+      "Microsoft",
+      3
+    ],
+    [
+      "Positive Technologies",
+      3
+    ],
+    [
+      "FirstVDS",
+      2
+    ],
+    [
+      "VMmanager",
+      2
+    ],
+    [
+      "PHP",
+      2
+    ],
+    [
+      "Drupal",
+      2
+    ],
+    [
+      "WordPress",
+      2
+    ],
+    [
+      "PowerShell",
+      2
+    ]
+  ],
+  "mean_per_day": 2.8,
+  "std_per_day": 2.1
+}

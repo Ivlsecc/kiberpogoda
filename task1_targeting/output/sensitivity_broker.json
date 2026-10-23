@@ -1,0 +1,67 @@
+{
+  "profile": "broker",
+  "n": 1000,
+  "sigma": 0.25,
+  "summary": [
+    {
+      "name": "Wildberries",
+      "mean_rank": 1.0,
+      "std_rank": 0.0,
+      "top3_share": 1.0
+    },
+    {
+      "name": "Ozon",
+      "mean_rank": 2.0,
+      "std_rank": 0.0,
+      "top3_share": 1.0
+    },
+    {
+      "name": "Detsky Mir",
+      "mean_rank": 3.06,
+      "std_rank": 0.35,
+      "top3_share": 0.967
+    },
+    {
+      "name": "DNS",
+      "mean_rank": 4.69,
+      "std_rank": 1.03,
+      "top3_share": 0.0
+    },
+    {
+      "name": "M.Video",
+      "mean_rank": 5.05,
+      "std_rank": 0.84,
+      "top3_share": 0.023
+    },
+    {
+      "name": "Magnit",
+      "mean_rank": 5.31,
+      "std_rank": 0.65,
+      "top3_share": 0.01
+    },
+    {
+      "name": "Lenta",
+      "mean_rank": 6.9,
+      "std_rank": 0.37,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Kuper",
+      "mean_rank": 8.0,
+      "std_rank": 0.03,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Lamoda",
+      "mean_rank": 9.15,
+      "std_rank": 0.36,
+      "top3_share": 0.0
+    },
+    {
+      "name": "Megamarket",
+      "mean_rank": 9.84,
+      "std_rank": 0.37,
+      "top3_share": 0.0
+    }
+  ]
+}

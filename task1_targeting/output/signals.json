@@ -1,0 +1,308 @@
+{
+  "sector_trend": 0.7,
+  "companies": [
+    {
+      "name": "Ozon",
+      "domain": "ozon.ru",
+      "A": {
+        "revenue_rub_bln": 550,
+        "prominence": 0.95,
+        "pii_scale": 0.95,
+        "sector_criticality": 0.6
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 60,
+      "dev_share": 0.0,
+      "high_value_count": 0,
+      "it_vacancies": 900,
+      "sec_vacancies": 40,
+      "new_cve_in_stack": 1,
+      "tech_stack": [],
+      "wiki_views_median": 45141,
+      "wiki_views_trend": 0.79,
+      "shadow_mentions_30d": 9,
+      "access_for_sale": 1,
+      "leak_mentions": 7
+    },
+    {
+      "name": "Wildberries",
+      "domain": "wildberries.ru",
+      "A": {
+        "revenue_rub_bln": 2600,
+        "prominence": 0.97,
+        "pii_scale": 0.97,
+        "sector_criticality": 0.65
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 31,
+      "dev_share": 0.0,
+      "high_value_count": 3,
+      "it_vacancies": 700,
+      "sec_vacancies": 18,
+      "new_cve_in_stack": 1,
+      "tech_stack": [],
+      "wiki_views_median": 60585,
+      "wiki_views_trend": 0.72,
+      "shadow_mentions_30d": 14,
+      "access_for_sale": 1,
+      "leak_mentions": 9
+    },
+    {
+      "name": "DNS",
+      "domain": "dns-shop.ru",
+      "A": {
+        "revenue_rub_bln": 600,
+        "prominence": 0.8,
+        "pii_scale": 0.8,
+        "sector_criticality": 0.5
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 23,
+      "dev_share": 0.09,
+      "high_value_count": 1,
+      "it_vacancies": 250,
+      "sec_vacancies": 8,
+      "new_cve_in_stack": 1,
+      "tech_stack": [],
+      "wiki_views_median": 9972,
+      "wiki_views_trend": 0.87,
+      "shadow_mentions_30d": 5,
+      "access_for_sale": 0,
+      "leak_mentions": 6
+    },
+    {
+      "name": "M.Video",
+      "domain": "mvideo.ru",
+      "A": {
+        "revenue_rub_bln": 430,
+        "prominence": 0.78,
+        "pii_scale": 0.75,
+        "sector_criticality": 0.45
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 103,
+      "dev_share": 0.41,
+      "high_value_count": 6,
+      "it_vacancies": 200,
+      "sec_vacancies": 10,
+      "new_cve_in_stack": 0,
+      "tech_stack": [],
+      "wiki_views_median": 6413,
+      "wiki_views_trend": 0.83,
+      "shadow_mentions_30d": 3,
+      "access_for_sale": 0,
+      "leak_mentions": 4
+    },
+    {
+      "name": "Lamoda",
+      "domain": "lamoda.ru",
+      "A": {
+        "revenue_rub_bln": 120,
+        "prominence": 0.7,
+        "pii_scale": 0.7,
+        "sector_criticality": 0.35
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 13,
+      "dev_share": 0.0,
+      "high_value_count": 2,
+      "it_vacancies": 150,
+      "sec_vacancies": 12,
+      "new_cve_in_stack": 0,
+      "tech_stack": [],
+      "wiki_views_median": 2531,
+      "wiki_views_trend": 1.36,
+      "shadow_mentions_30d": 2,
+      "access_for_sale": 0,
+      "leak_mentions": 3
+    },
+    {
+      "name": "Detsky Mir",
+      "domain": "detmir.ru",
+      "A": {
+        "revenue_rub_bln": 170,
+        "prominence": 0.72,
+        "pii_scale": 0.8,
+        "sector_criticality": 0.4
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": false,
+        "shadow": false
+      },
+      "subdomains": 84,
+      "dev_share": 0.05,
+      "high_value_count": 0,
+      "it_vacancies": 120,
+      "sec_vacancies": 5,
+      "new_cve_in_stack": 1,
+      "tech_stack": [],
+      "wiki_views_median": null,
+      "shadow_mentions_30d": 4,
+      "access_for_sale": 1,
+      "leak_mentions": 5
+    },
+    {
+      "name": "Magnit",
+      "domain": "magnit.ru",
+      "A": {
+        "revenue_rub_bln": 2900,
+        "prominence": 0.85,
+        "pii_scale": 0.7,
+        "sector_criticality": 0.7
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 108,
+      "dev_share": 0.06,
+      "high_value_count": 7,
+      "it_vacancies": 300,
+      "sec_vacancies": 22,
+      "new_cve_in_stack": 0,
+      "tech_stack": [],
+      "wiki_views_median": 3173,
+      "wiki_views_trend": 0.66,
+      "shadow_mentions_30d": 3,
+      "access_for_sale": 0,
+      "leak_mentions": 4
+    },
+    {
+      "name": "Lenta",
+      "domain": "lenta.com",
+      "A": {
+        "revenue_rub_bln": 620,
+        "prominence": 0.7,
+        "pii_scale": 0.65,
+        "sector_criticality": 0.6
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 163,
+      "dev_share": 0.26,
+      "high_value_count": 20,
+      "it_vacancies": 110,
+      "sec_vacancies": 6,
+      "new_cve_in_stack": 0,
+      "tech_stack": [],
+      "wiki_views_median": 10034,
+      "wiki_views_trend": 1.13,
+      "shadow_mentions_30d": 1,
+      "access_for_sale": 0,
+      "leak_mentions": 2
+    },
+    {
+      "name": "Megamarket",
+      "domain": "megamarket.ru",
+      "A": {
+        "prominence": 0.6
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": true,
+        "shadow": false
+      },
+      "subdomains": 8,
+      "dev_share": 0.0,
+      "high_value_count": 0,
+      "it_vacancies": 160,
+      "sec_vacancies": null,
+      "new_cve_in_stack": null,
+      "tech_stack": [],
+      "wiki_views_median": 70,
+      "wiki_views_trend": 1.24,
+      "shadow_mentions_30d": null,
+      "access_for_sale": null,
+      "leak_mentions": null
+    },
+    {
+      "name": "Kuper",
+      "domain": "kuper.ru",
+      "A": {
+        "prominence": 0.55,
+        "pii_scale": 0.7
+      },
+      "collected": {
+        "subdomains": true,
+        "surface": true,
+        "it_vacancies": false,
+        "sec_vacancies": false,
+        "new_cve_in_stack": false,
+        "wiki": false,
+        "shadow": false
+      },
+      "subdomains": 57,
+      "dev_share": 0.0,
+      "high_value_count": 0,
+      "it_vacancies": null,
+      "sec_vacancies": null,
+      "new_cve_in_stack": null,
+      "tech_stack": [],
+      "wiki_views_median": null,
+      "shadow_mentions_30d": 2,
+      "access_for_sale": 0,
+      "leak_mentions": null
+    }
+  ]
+}

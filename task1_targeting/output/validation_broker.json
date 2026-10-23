@@ -1,0 +1,78 @@
+{
+  "profile": "broker",
+  "n": 10,
+  "positives": 4,
+  "P@2": 1.0,
+  "R@2": 0.5,
+  "lift@2": 2.5,
+  "P@3": 1.0,
+  "R@3": 0.75,
+  "lift@3": 2.5,
+  "P@5": 0.8,
+  "R@5": 1.0,
+  "lift@5": 2.0,
+  "AP": 1.0,
+  "corr(score,label)": 0.782,
+  "ranked": [
+    {
+      "rank": 1,
+      "name": "Wildberries",
+      "score": 76.0,
+      "label": 1
+    },
+    {
+      "rank": 2,
+      "name": "Ozon",
+      "score": 71.8,
+      "label": 1
+    },
+    {
+      "rank": 3,
+      "name": "Detsky Mir",
+      "score": 58.4,
+      "label": 1
+    },
+    {
+      "rank": 4,
+      "name": "DNS",
+      "score": 48.9,
+      "label": 1
+    },
+    {
+      "rank": 5,
+      "name": "M.Video",
+      "score": 47.3,
+      "label": 0
+    },
+    {
+      "rank": 6,
+      "name": "Magnit",
+      "score": 47.0,
+      "label": 0
+    },
+    {
+      "rank": 7,
+      "name": "Lenta",
+      "score": 42.1,
+      "label": 0
+    },
+    {
+      "rank": 8,
+      "name": "Kuper",
+      "score": 27.4,
+      "label": 0
+    },
+    {
+      "rank": 9,
+      "name": "Lamoda",
+      "score": 19.8,
+      "label": 0
+    },
+    {
+      "rank": 10,
+      "name": "Megamarket",
+      "score": 17.5,
+      "label": 0
+    }
+  ]
+}

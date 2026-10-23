@@ -1,0 +1,443 @@
+[
+  {
+    "domain": "lenta.com",
+    "total": 163,
+    "categories": {
+      "remote_access": 4,
+      "dev_test": 43,
+      "legacy": 1,
+      "devops": 15,
+      "admin": 3,
+      "mail": 0,
+      "auth": 6,
+      "data_bi": 4,
+      "infra": 5,
+      "collab": 18
+    },
+    "dev_share": 0.26,
+    "high_value": [
+      [
+        "awx.int.bd.lenta.com",
+        [
+          "awx (Ansible AWX)"
+        ]
+      ],
+      [
+        "consul.int.bd.lenta.com",
+        [
+          "consul (service mesh/конфиги)"
+        ]
+      ],
+      [
+        "da.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "da.dev.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "defectdojo.bd.lenta.com",
+        [
+          "defectdojo (трекер уязвимостей)"
+        ]
+      ],
+      [
+        "docker-mirror.bd.lenta.com",
+        [
+          "docker (реестр образов)"
+        ]
+      ],
+      [
+        "grafana.bd.lenta.com",
+        [
+          "grafana (мониторинг)"
+        ]
+      ],
+      [
+        "mkt.dev.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "mle.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "mle.dev.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "mon.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "mon.dev.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "pgadmin.int.bd.lenta.com",
+        [
+          "pgadmin (админка БД)"
+        ]
+      ],
+      [
+        "registry-train.bd.lenta.com",
+        [
+          "registry (реестр образов)"
+        ]
+      ],
+      [
+        "registry.bd.lenta.com",
+        [
+          "registry (реестр образов)"
+        ]
+      ],
+      [
+        "sandbox-replication.dev.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "sandbox.dev.airflow.bd.lenta.com",
+        [
+          "airflow (оркестратор данных)"
+        ]
+      ],
+      [
+        "sso.demo.bd.lenta.com",
+        [
+          "sso (единый вход)"
+        ]
+      ],
+      [
+        "sso.dev.bd.lenta.com",
+        [
+          "sso (единый вход)"
+        ]
+      ],
+      [
+        "vault.bd.lenta.com",
+        [
+          "vault (менеджер секретов)"
+        ]
+      ]
+    ],
+    "high_value_count": 20,
+    "exposure_raw": 4.07
+  },
+  {
+    "domain": "mvideo.ru",
+    "total": 103,
+    "categories": {
+      "remote_access": 0,
+      "dev_test": 42,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 0,
+      "mail": 0,
+      "auth": 0,
+      "data_bi": 0,
+      "infra": 1,
+      "collab": 5
+    },
+    "dev_share": 0.41,
+    "high_value": [
+      [
+        "aw-fe-dmz.corp.mvideo.ru",
+        [
+          "dmz (DMZ-хост)"
+        ]
+      ],
+      [
+        "aw-fe-dmz.mvideo.ru",
+        [
+          "dmz (DMZ-хост)"
+        ]
+      ],
+      [
+        "aw-fe-dmz01.corp.mvideo.ru",
+        [
+          "dmz (DMZ-хост)"
+        ]
+      ],
+      [
+        "aw-fe-dmz02.corp.mvideo.ru",
+        [
+          "dmz (DMZ-хост)"
+        ]
+      ],
+      [
+        "aw-fe-dmz03.corp.mvideo.ru",
+        [
+          "dmz (DMZ-хост)"
+        ]
+      ],
+      [
+        "sorm-prod1.yc.mvideo.ru",
+        [
+          "sorm (СОРМ)"
+        ]
+      ]
+    ],
+    "high_value_count": 6,
+    "exposure_raw": 3.88
+  },
+  {
+    "domain": "magnit.ru",
+    "total": 108,
+    "categories": {
+      "remote_access": 2,
+      "dev_test": 6,
+      "legacy": 0,
+      "devops": 1,
+      "admin": 0,
+      "mail": 9,
+      "auth": 5,
+      "data_bi": 0,
+      "infra": 0,
+      "collab": 1
+    },
+    "dev_share": 0.06,
+    "high_value": [
+      [
+        "adfs.magnit.ru",
+        [
+          "adfs (федеративный вход (AD FS))"
+        ]
+      ],
+      [
+        "gitlab.magnit.ru",
+        [
+          "gitlab (репозиторий исходников)"
+        ]
+      ],
+      [
+        "keycloak.srm2.magnit.ru",
+        [
+          "keycloak (единый вход)",
+          "srm (портал поставщиков (SRM))"
+        ]
+      ],
+      [
+        "login.srm2.magnit.ru",
+        [
+          "srm (портал поставщиков (SRM))"
+        ]
+      ],
+      [
+        "srm.magnit.ru",
+        [
+          "srm (портал поставщиков (SRM))"
+        ]
+      ],
+      [
+        "srm2.magnit.ru",
+        [
+          "srm (портал поставщиков (SRM))"
+        ]
+      ],
+      [
+        "sso.magnit.ru",
+        [
+          "sso (единый вход)"
+        ]
+      ]
+    ],
+    "high_value_count": 7,
+    "exposure_raw": 3.06
+  },
+  {
+    "domain": "wildberries.ru",
+    "total": 31,
+    "categories": {
+      "remote_access": 1,
+      "dev_test": 0,
+      "legacy": 1,
+      "devops": 0,
+      "admin": 0,
+      "mail": 5,
+      "auth": 0,
+      "data_bi": 0,
+      "infra": 2,
+      "collab": 0
+    },
+    "dev_share": 0.0,
+    "high_value": [
+      [
+        "netbox.wildberries.ru",
+        [
+          "netbox (IPAM/инвентарь сети)"
+        ]
+      ],
+      [
+        "zabbix-net.wildberries.ru",
+        [
+          "zabbix (мониторинг)"
+        ]
+      ],
+      [
+        "zabbix4.wildberries.ru",
+        [
+          "zabbix (мониторинг)"
+        ]
+      ]
+    ],
+    "high_value_count": 3,
+    "exposure_raw": 2.14
+  },
+  {
+    "domain": "detmir.ru",
+    "total": 84,
+    "categories": {
+      "remote_access": 1,
+      "dev_test": 4,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 0,
+      "mail": 5,
+      "auth": 0,
+      "data_bi": 0,
+      "infra": 0,
+      "collab": 1
+    },
+    "dev_share": 0.05,
+    "high_value": [],
+    "high_value_count": 0,
+    "exposure_raw": 2.12
+  },
+  {
+    "domain": "dns-shop.ru",
+    "total": 23,
+    "categories": {
+      "remote_access": 0,
+      "dev_test": 2,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 2,
+      "mail": 0,
+      "auth": 0,
+      "data_bi": 3,
+      "infra": 0,
+      "collab": 0
+    },
+    "dev_share": 0.09,
+    "high_value": [
+      [
+        "dwh.dns-shop.ru",
+        [
+          "dwh (хранилище данных)"
+        ]
+      ]
+    ],
+    "high_value_count": 1,
+    "exposure_raw": 1.98
+  },
+  {
+    "domain": "ozon.ru",
+    "total": 60,
+    "categories": {
+      "remote_access": 0,
+      "dev_test": 0,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 1,
+      "mail": 4,
+      "auth": 0,
+      "data_bi": 0,
+      "infra": 0,
+      "collab": 0
+    },
+    "dev_share": 0.0,
+    "high_value": [],
+    "high_value_count": 0,
+    "exposure_raw": 1.85
+  },
+  {
+    "domain": "kuper.ru",
+    "total": 57,
+    "categories": {
+      "remote_access": 7,
+      "dev_test": 0,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 0,
+      "mail": 0,
+      "auth": 0,
+      "data_bi": 1,
+      "infra": 2,
+      "collab": 0
+    },
+    "dev_share": 0.0,
+    "high_value": [],
+    "high_value_count": 0,
+    "exposure_raw": 1.83
+  },
+  {
+    "domain": "lamoda.ru",
+    "total": 13,
+    "categories": {
+      "remote_access": 1,
+      "dev_test": 0,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 0,
+      "mail": 0,
+      "auth": 1,
+      "data_bi": 1,
+      "infra": 0,
+      "collab": 0
+    },
+    "dev_share": 0.0,
+    "high_value": [
+      [
+        "powerbi.lamoda.ru",
+        [
+          "powerbi (BI)"
+        ]
+      ],
+      [
+        "pwd.lamoda.ru",
+        [
+          "pwd (сброс паролей)"
+        ]
+      ]
+    ],
+    "high_value_count": 2,
+    "exposure_raw": 1.67
+  },
+  {
+    "domain": "megamarket.ru",
+    "total": 8,
+    "categories": {
+      "remote_access": 0,
+      "dev_test": 0,
+      "legacy": 0,
+      "devops": 0,
+      "admin": 0,
+      "mail": 1,
+      "auth": 0,
+      "data_bi": 0,
+      "infra": 0,
+      "collab": 0
+    },
+    "dev_share": 0.0,
+    "high_value": [],
+    "high_value_count": 0,
+    "exposure_raw": 0.99
+  }
+]
